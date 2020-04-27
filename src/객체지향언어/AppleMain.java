@@ -4,16 +4,12 @@ class Mart{                // 참조자료형이라는 의미로 첫글자는 �
 	// field (속성) 
 	int benefit; // 이윤
 	int numOfApple ; // 남은 사과 갯수
-	
-	
+
 	 Mart(int apple){
 		 //System.out.println("실행 ...");
-		 numOfApple =  apple;
-		 
-		 
+		 numOfApple =  apple;	 
 	 }
-	
-
+	 
    //method(사과를 판매 - 행위/기능) 
 	public void sellApple(int money) {
 		
@@ -26,12 +22,9 @@ class Mart{                // 참조자료형이라는 의미로 첫글자는 �
 	public void displayMart() {
 		System.out.println(" 마트 이윤 : " + benefit);
 		System.out.println(" 남은 사과 갯수 : " + numOfApple);
-
 	}		
 }
-
 public class AppleMain {
-
 	public static void main(String[] args) {
 		
 		Mart e_mart;              // 생성자 : class 의 이름과 같아야 한다. 반환형이 없다. java에 의해서 memory 생성시 딱 1번만 수행된다. 
@@ -43,19 +36,11 @@ public class AppleMain {
 		e_mart.sellApple(2000);
 		e_mart.displayMart();
 		
-		
 	    Mart homePlus;
 	    homePlus = new Mart(100);
 	    
 	    homePlus.sellApple(100000);
 	    homePlus.displayMart();
-	    
-	    
-	    Mart department;
-	    department = new Mart(100);
-	    
-	    department.sellApple(100000);
-	    department.displayMart();
 	    
 		// 자료형만 잘 지어주면 결과값은 언제든지 얻어낼 수 있다. 
 	    // 객체의 이름만 알고 있다면 언제든 수행할 수 있다. 

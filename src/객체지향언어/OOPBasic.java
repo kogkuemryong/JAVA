@@ -54,9 +54,6 @@ System.out.println("수익합계 :" + sum);
 
 
 }
-
-
-
 public class OOPBasic {
 
 	public static void main(String[] args) {
@@ -120,12 +117,6 @@ public class OOPBasic {
 		 * 부서번호 : 2
 		 */
 	    
-		// (new : 만들어둔 틀의 저장 공간(memory)을 할당 받기 위한 명령어이다.) //
-        // new Employee(); 형식은 method 수행하는 형식과 같이 사용한다. 
-        // 요청은 내가 했지만 memory 영역은 java가 할당해준다. 
-        // 실체화 한 대상  : 범용적인 객체 = 할당 되어 있는 메모리에 있는 정보 / 객체 할당하기 시작하는 이름 
-		// 인스턴스 : 할당 되어 있는 메모리 공간
-	    // 추상적인 개념인 클래스에서 실제 객체를 생성하는 것을 인스턴스화(instantiation)라고 한다.                                            	 
 		
 		
 
