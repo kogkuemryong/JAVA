@@ -36,11 +36,10 @@ class Super{                                                // 참조자료형�
 		
 	}		
 }
-                                           // 기본자료형을 배운 이유는 객체지향 안에서 속성을 넣어줄 때 사용하기 위해서 배운 것이다. 
+                                    // 기본자료형을 배운 이유는 객체지향 안에서 속성을 넣어줄 때 사용하기 위해서 배운 것이다. 
 class Buyer{                        // Buyer(){} java가 동작되어 지게끔 default 값으로 스스로 만든다. 
-	                                       // 1) 환경, 문제 조건  안에서 관리해야 하는 데이터를 만들어야 한다. 
+	//field 생성 (속성)                // 1) 환경, 문제 조건  안에서 관리해야 하는 데이터를 만들어야 한다. 
 	String name; 
-	//field 생성 (속성)
 	int myMoney; // 잔고
 	int numOfApple; // 구입한 사과 갯수
 	
@@ -65,7 +64,7 @@ class Buyer{                        // Buyer(){} java가 동작되어 지게끔 
 public class AppleMain2 {
 	public static void main(String[] args) {
 		
-		Super e_mart = new Super(" 이마트 " , 1000, 1000);
+		 Super e_mart = new Super(" 이마트 " , 1000, 1000);
 		 Super homeplus = new Super(" 홈플러스 " , 800, 2000);
 		 Buyer mother = new Buyer(" 어머니 " ,100000);
 		 
