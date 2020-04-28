@@ -21,8 +21,8 @@ class Adder{
 }
 //		// (주의)반환형 타입이 다른 것은 오버로딩에 영향을 미치지 않는다. 
 //		public double add(int n1, int n2){   반환형이 다르지만 자료형이 같으면 error:
-//	        double result = 0.0;                   반환형은 결과를 가지고 수행하는 것이지 호출 시에는 inform 이 없기 때문에
-//	                                                          method overloading 을 하는 것과 관련이 없다. 매개변수가 중요하지  반환형은 상관없다. 
+//	        double result = 0.0;             반환형은 결과를 가지고 수행하는 것이지 호출 시에는 inform 이 없기 때문에
+//	                                         method overloading 을 하는 것과 관련이 없다. 매개변수가 중요하지  반환형은 상관없다. 
 //	        result = n1 +n2; 
 //	        return result; 
 //		}

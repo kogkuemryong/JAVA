@@ -3,7 +3,6 @@ package 객체지향언어;
 class human {
 	private String name; // 이름
 	private int milID; // 군번
-	
 
 	human(String name, int mID){
 		this.name = name;  // 생성자 매개변수와 필드의 자료형 이름과 동일하기 때문에 null 값이 나오고 있다. 
