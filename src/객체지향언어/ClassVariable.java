@@ -1,6 +1,6 @@
 package 객체지향언어;
 
-class InstCnt{                 //int instNum;  출력값 1,1,1 , static int instNum;  출력값 1,2,3 
+class InstCnt{               //int instNum;  출력값 1,1,1 , static int instNum;  출력값 1,2,3 
 	static int instNum;      // static 있으면 먼저 메모리를 할당 한다. 
 	
 	

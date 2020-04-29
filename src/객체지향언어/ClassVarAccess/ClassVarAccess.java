@@ -5,7 +5,7 @@ class AccesWay{
                                  // static의 궁극적 목적은 공유 하는 하는 것이다. 이름만으로 호출이 가능하다. 
 	                             // 공유함으로 업데이트 되기 때문에 생성자 안에서 초기화 되면 누군가에 의해서 변할 수 있기 때문에 불가하다. 
 	AccesWay(){
-		inctrmentCnt();		
+	inctrmentCnt();		
 	}
 	
 	public void inctrmentCnt() {
