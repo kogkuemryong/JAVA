@@ -2,7 +2,7 @@ package 배열;
 
 public class JavaArrayLength {
 	public static void main(String[] args) {
-int[] age = new int[] {20,21,22,23,24,25,26};  //
+            int[] age = new int[] {20,21,22,23,24,25,26};  //
 		
 		// count 값을 넣지 않아야 error 나지 않는다. 
 		// 초기 값을 넣으면 그 값보다 작은 수를 넣으면 

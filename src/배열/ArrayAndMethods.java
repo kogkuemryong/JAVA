@@ -19,7 +19,7 @@ public class ArrayAndMethods {
 	
 	public static int[] addAllArray(int[] a, int n) {  // 매개변수 + 지역변수 - int[] arr 과 같은 주소값을 가진다. 
 		                                                         // 참조변수 일 때, 주소값을 전달 받도록 해서 사용한다. 
-		n = 20;      
+		      
 
 	for(int i = 0; i < a.length;i++) {
 		a[i] += 10;
@@ -31,9 +31,7 @@ public class ArrayAndMethods {
 	    	System.out.println("메서드 : " +  a[i]);
 	    }
 	    
-	    for(int num = 0; num < a.length; num++) { 
-			 a[num] += n;
-		 System.out.println(a[num]); }
+	  
 	    
 		return a; 	
 
