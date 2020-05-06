@@ -15,6 +15,7 @@ public class TokenizerString01 {
 		        	System.out.println(st.nextToken());     // nextToken : 데이터를 꺼내오는 명령어. 
 		        } 
 		
+		        
 
 	}
 

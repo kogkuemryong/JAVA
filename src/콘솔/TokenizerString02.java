@@ -9,7 +9,7 @@ String PhoneNum = "TEL 82-02-1234-5678";
 		
 		System.out.println("First result == ");
 		StringTokenizer st1 = new StringTokenizer(PhoneNum); // 구분 단위를 생략하면
-		                                                                                     // 여백으로 체크
+		                                                    // 여백으로 체크
 		
 		while(st1.hasMoreTokens()) {
 			System.out.println(st1.nextToken()); 
