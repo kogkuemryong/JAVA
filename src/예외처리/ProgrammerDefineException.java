@@ -10,28 +10,22 @@ import java.util.Scanner;
 //<사용자 정의 예외 처리 자료문>
 
 
-class AAA /*extends Object*/{
-	
+class AAA /*extends Object*/{	
 	AAA(){}
 	
 }
-
 
 class BBB{
 	
 	public void method() {
 		AAA aaa = new AAA();
-		
-		
+				
 		try {
 			aaa.wait(1000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
 
-	
-	
-	
 	}
 }
 
