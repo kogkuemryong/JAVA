@@ -23,7 +23,7 @@ public class IntroHashSet { // 중복 저장 x , 저장순서로 기록 x
 		// 데이터 참조 
 		for(int i = 0; i < set.size(); i++ ) {    
 			System.out.println(set.get(i));  error :  읽어오는 get() 을 지원해 주지 않는다. 체계화 되어서 사용된다고 하는데 왜 그럴까? 
-			                                            list 는 저장한 순서대로 반환 하기 때문에 의미가 있지만 set은 저장한 순서를 유지 하지 않기 때문에 의미하지 않는
+			                        list 는 저장한 순서대로 반환 하기 때문에 의미가 있지만 set은 저장한 순서를 유지 하지 않기 때문에 의미하지 않는
 		}                                              
 		*/
 		

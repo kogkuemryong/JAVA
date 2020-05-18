@@ -3,7 +3,7 @@ package method;
 public class MethodReturn {
 
 	public static void main(String[] args) {
-int num = 0;
+        int num = 0;
 		
 		num = mulifly(1234,546); 
 		

@@ -29,9 +29,10 @@ public class IntroArrayList {
 		instanceInteger.add(new Integer(20));
 		instanceInteger.add(new Integer(30));
 		
+		instanceInteger.add(40);
 		
 		// 데이터 참조 
-		for(int i = 0; i < instanceInteger.size(); i++ ) {    //  instanceInteger.size() : 저장하고 있는 instance를 반환해준다. 
+		for(int i = 0; i < instanceInteger.size(); i++ ) {    // instanceInteger.size() : 저장하고 있는 instance를 반환해준다. 
 			System.out.println(instanceInteger.get(i));       // get을 통해서 출력 할 수 있는데 시작 숫자는 0이다. 
 		}
 		
@@ -39,7 +40,7 @@ public class IntroArrayList {
 		
 		// 데이터 참조 
 		Iterator<Integer> itr = instanceInteger.iterator();  // iterator(); interface로 저장되어 있다. set에 담겨 있는 정보로 itr 을 반환해 주고 있는 것이다. 
-		                                                    // emthod가 스스로 new 해준다. (ex = calendar) 
+		                                                    // method가 스스로 new 해준다. (ex = calendar) 
 		
 		while(itr.hasNext()){   // hasNext(): 데이터가 있는지 확인 하고 있으면 true, 없으면 false / 데이터의 위치까지 확인할 수 있다. 
     		System.out.println(itr.next());	// next() 사용하여 읽어 온다. 

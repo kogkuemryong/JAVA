@@ -4,30 +4,21 @@ public class IntroGenericArray {
 
 	public static void main(String[] args) {
 		String[] stArr = {"HI.", "I ' m so happy." , "JAva Generic Program."};
-		String stdkfd = new String("홍길동");
+		
 		
 		showArrayData(stArr);
 
-		show(stdkfd);
+		
 		
 	}
 	
 	//public static <T>void showArrayData(T arr) {}  T 어떤 자료형이든 상관 없이 입력되는 순간 자료형으로 확정되므로  error가 나타난다. 
-	public static <T>void showArrayData(T[] arr) {  // 입력 받는 참조자료형이 배열이 확신할 때, 배열 형으로 넣어 준다. 
+	public static <T>void showArrayData(T[] stArr) {  // 입력 받는 참조자료형이 배열이 확신할 때, 배열 형으로 넣어 준다. 
 		                                                               
-		for(int i = 0; i <arr.length; i++) {
-			System.out.println(arr[i]);
+		for(int i = 0; i <stArr.length; i++) {
+			System.out.println(stArr[i]);
 		}
 	}
-	
-	
-	
-	public static <T>void show(T arr) {  // 입력 받는 참조자료형이 배열이 확신할 때, 배열 형으로 넣어 준다. 
-        
-	System.out.println("내이름은 : " +arr);
-		
-		
-		
-	}
+
 
 }
