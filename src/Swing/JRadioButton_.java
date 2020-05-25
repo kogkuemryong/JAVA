@@ -14,9 +14,8 @@ class JRadioButtonTest extends JFrame implements ActionListener{
 	
 	
 	JTextField jtf;
-	
 	JRadioButtonTest(){
-		
+
 		// 버튼 그룹 객체를 생성하여 그룹화할 컴포넌트 추가 (하나만 선택된다)
 		ButtonGroup bg = new ButtonGroup(); // 버튼을 그룹화 
 		JRadioButton jrb1 = new  JRadioButton("승마");
@@ -42,29 +41,18 @@ class JRadioButtonTest extends JFrame implements ActionListener{
 		jrb3.addActionListener(this);
 		jrb4.addActionListener(this);
 	
-		setTitle("JRadioButton 실습");
+		setTitle("JRadioButton");
 		setSize(350,100);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setVisible(true);
-
 	}
-
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		
 		jtf.setText(e.getActionCommand());
-		
 	}
 }
-
-
 public class JRadioButton_ {
-
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {	
 		new JRadioButtonTest();
-
-
 	}
-
 }

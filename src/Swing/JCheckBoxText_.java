@@ -37,8 +37,6 @@ class JCheckBoxText extends JFrame implements ItemListener{
 		jcb3.addItemListener(this);
 		jcb4.addItemListener(this);
 		
-		
-		
 		setTitle("JChecjBox 실습");
 		setSize(500,100);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -70,22 +68,13 @@ class JCheckBoxText extends JFrame implements ItemListener{
 		case "db":
 			System.out.println("db해보자");
 			break;
-			
-			
-		
-			
+
 		}
-		
-		
-		
 	}
-	
 } 
 public class JCheckBoxText_ {
 
 	public static void main(String[] args) {
 		new JCheckBoxText();
-
 	}
-
 }

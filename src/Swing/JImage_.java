@@ -2,6 +2,7 @@ package Swing;
 
 import java.awt.Container;
 import java.awt.FlowLayout;
+import java.net.URL;
 
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -11,7 +12,9 @@ class JImageTest extends JFrame{
 	
 	JImageTest(){
 		
-		// 1. 이미지 파일을 이용한 아이콘화
+
+
+		
 		// ImageIcon ii = new ImageIcon("images/korea.gif"); ./ 뺀다고 해서 문제 되지 않는다. 
 		ImageIcon ii = new ImageIcon("./images/korea.gif"); // (./) default 위치에서 시작하겠다.
 		
@@ -26,7 +29,7 @@ class JImageTest extends JFrame{
 		
 		container.add(korea);
 		
-		setTitle("이미지 아니콘 실습");
+		setTitle("대한민국");
 		setSize(500,180);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setVisible(true);

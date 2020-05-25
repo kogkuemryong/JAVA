@@ -37,12 +37,10 @@ class JPanelTest extends JFrame{
 		container.add(jp1,BorderLayout.WEST);
 		container.add(jp2,BorderLayout.EAST);
 		
-		
 		setTitle("패널 컨테이너 실습");
 		setSize(500,180);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setVisible(true);
-		
 	}
 }
 

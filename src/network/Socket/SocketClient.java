@@ -10,8 +10,8 @@ public class SocketClient {
 	public static void main(String[] args) {
 		
 		try {
-			//Socket socket = new Socket("localhost", 9001);
-			Socket socket = new Socket("192.168.0.120", 9001);
+			Socket socket = new Socket("localhost", 9001);
+			
 			
 			ObjectOutputStream outStream = 
 					new ObjectOutputStream(socket.getOutputStream());
